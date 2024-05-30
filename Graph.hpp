@@ -727,6 +727,16 @@ public:
 			temp1.push_back((x[2] == 1 ? costPP(gen) : costHC(gen)));
 		cost.push_back(temp1);
 	}
+
+	std::vector<int> getTaskTimes(int task_id)
+	{
+		return times[task_id];
+	}
+
+	std::vector<int> getTaskCosts(int task_id)
+	{
+		return cost[task_id];
+	}
 };
 
 #endif // !GRAPH_H
