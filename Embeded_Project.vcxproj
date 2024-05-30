@@ -131,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graph.hpp" />
-    <ClInclude Include="GrayWolfOptimizer.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="graph20.txt" />

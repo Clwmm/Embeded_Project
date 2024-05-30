@@ -2,24 +2,9 @@
 #include <vector>
 #include <iostream>
 #include "Graph.hpp"
-#include "GrayWolfOptimizer.hpp"
 
 int main(int argc, char* argv[])
 {
-
-
-
-	int numWolves = 30;
-	int dim = 1;
-	int maxIter = 1000;
-	double lowerBound = -10.0;
-	double upperBound = 10.0;
-
-	GrayWolfOptimizer gwo(numWolves, dim, maxIter, lowerBound, upperBound);
-	gwo.optimize();
-
-
-	return 0;
 	if (argc != 2)
 	{
 		std::cout << "Eneter graph name as program argument\n";
